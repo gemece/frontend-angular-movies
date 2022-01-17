@@ -1,0 +1,21 @@
+<div lass="container main-container animated fadeIn fast">
+    <br />
+    <h1>{{ movie.title || movie.original_title }}</h1>
+    <div class="row">
+        <div class="col-md-7">
+            <p class="text-justify">
+                Description: <span>{{ movie.overview }}</span>
+            </p>
+            <p>
+                Date: <span>{{ movie.release_date }}</span>
+            </p>
+            <p>
+                Lenguage: <span>{{ movie.original_language }}</span>
+            </p>
+            <p>
+                Avarage Vote: <span>{{ movie.vote_average }}</span>
+            </p>
+            <br />
+        </div>
+    </div>
+</div>
